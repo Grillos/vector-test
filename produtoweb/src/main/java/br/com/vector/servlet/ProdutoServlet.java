@@ -68,7 +68,7 @@ public class ProdutoServlet extends HttpServlet {
 		req.setAttribute("vazio", "ok");
 			
 		String index = req.getParameter("index");
-		RequestDispatcher dispatcher = req.getRequestDispatcher("produto.jsp");
+		RequestDispatcher dispatcher = req.getRequestDispatcher("produto.html");
 		dispatcher.forward(req, resp);
 	}
 
